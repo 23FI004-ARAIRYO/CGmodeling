@@ -195,7 +195,6 @@ class ThreeJSContainer {
                     if (!isBigBonus && !isLegBonus) {
                         resetFlags();
                         random = Math.floor(Math.random() * 256);
-                        random = 255;
                         // 抽選はここで1回だけ
                         if (random === 0)
                             isStrongChery = true;
